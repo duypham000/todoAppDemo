@@ -8,6 +8,7 @@ const { Search } = Input;
 export default function Filters() {
   const [searchText, setSearchText] = useState('');
   const [status, setStatus] = useState('All');
+  // eslint-disable-next-line no-unused-vars
   const [priority, setPriority] = useState([]);
 
   const dispatch = useDispatch();
